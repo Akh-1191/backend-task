@@ -80,12 +80,12 @@ Status Code: 200 OK
 Body: Updated product object
 Example Request: /products/1
 
-**Delete Product**
-URL: /products/<product_id>
-Method: DELETE
-Description: Deletes a product by its ID.
-Response:
-Status Code: 200 OK
-Body: Message indicating deletion success
-Example Request: /products/1
+**Delete Product**  
+URL: /products/<product_id>  
+Method: DELETE  
+Description: Deletes a product by its ID.  
+Response:  
+Status Code: 200 OK  
+Body: Message indicating deletion success  
+Example Request: /products/1  
     
