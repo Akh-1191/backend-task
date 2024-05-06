@@ -21,7 +21,7 @@ pip install flask
 pip install flask_peewee
 ```
 
-**Endpoints**
+##**Endpoints**  
 Get All Products  
 URL: /products  
 Method: GET  
