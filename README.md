@@ -14,7 +14,7 @@ python -m venv env
 
 then activate it.
 
-**• Install Requirements using **
+**• Install Requirements using**
 
 ```bash
 pip install flask
@@ -30,7 +30,7 @@ Response:
 Status Code: 200 OK  
 Body: Array of product objects  
 
-Get Product by ID  
+**Get Product by ID**  
 URL: /products/<product_id>  
 Method: GET  
 Description: Retrieves a specific product by its ID.  
@@ -39,13 +39,13 @@ Status Code: 200 OK
 Body: Product object  
 Example Request: /products/1  
 
-Create Product  
+**Create Product**  
 URL: /products  
 Method: POST  
 Description: Creates a new product.  
 Request Body:  
 json  
-Copy code 
+```bash
 {  
   "name": "Product Name",  
   "description": "Product Description",  
@@ -53,17 +53,19 @@ Copy code
   "category": "Electronics",  
   "availability": true,  
   "stock_quantity": 100  
-}  
+}
+```
 Response:  
 Status Code: 201 Created  
 Body: Created product object  
 
-Update Product  
+**Update Product**  
 URL: /products/<product_id>  
 Method: PUT  
 Description: Updates an existing product.  
 Request Body:  
-json  
+json
+```bash
 {
   "name": "New Product Name",  
   "description": "New Product Description",  
@@ -72,11 +74,13 @@ json
   "availability": true,  
   "stock_quantity": 150  
 }
+```
 Response:   
 Status Code: 200 OK
 Body: Updated product object
 Example Request: /products/1
-Delete Product
+
+**Delete Product**
 URL: /products/<product_id>
 Method: DELETE
 Description: Deletes a product by its ID.
